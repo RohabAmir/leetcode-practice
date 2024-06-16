@@ -24,6 +24,3 @@ var FibonacciNumber = function(n){
     return FibonacciNumber(n-1) + FibonacciNumber(n-2);
 
 }
-
-
-console.log(FibonacciNumber(4));
