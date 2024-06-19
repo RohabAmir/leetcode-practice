@@ -47,3 +47,4 @@ var compress = function(chars) {
 
     
 };
+console.log((compress(['a','a','b'])))
