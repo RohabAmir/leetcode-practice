@@ -14,6 +14,6 @@ const removeDuplicate = function(arr){
 }
 
 // Example usage
-const arr = ['a', 'a', 'b', 'c', 'c', 'c', 'd','d'];
+const arr = [1,2,1,3,2,-1,3,4,5,6,3,4];
 const afterRemoval = removeDuplicate(arr);
 console.log(afterRemoval);
