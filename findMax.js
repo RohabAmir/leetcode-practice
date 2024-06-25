@@ -12,6 +12,6 @@ const findMax = function(arr){
 }
 
 // Example usage
-const arr = [1,8,30,40,42];
+const arr = [1,2,3,3,5,6,9,5,6-2,0];
 const MaximumInArray = findMax(arr);
 console.log(MaximumInArray);

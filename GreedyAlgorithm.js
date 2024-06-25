@@ -25,7 +25,7 @@ var maxProfit = function(prices) {
         if(prices[i] < minStockPurchasePrice){
             minStockPurchasePrice = prices[i];
         }
-         maxProfit = Math.max( maxProfit, prices[i] - minStockPurchasePrice )
+        maxProfit = Math.max( maxProfit, prices[i] - minStockPurchasePrice )
 
     }
 
