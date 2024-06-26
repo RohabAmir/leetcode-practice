@@ -6,13 +6,7 @@ function countOccurrences(arr) {
     const result = {};  // Initialize an empty object to store the counts
 
     for (let i = 0; i < arr.length; i++) {  // Loop through the array
-        const item = arr[i]; // get the fisrt element of aarray 
-
-        // if (result[item]) {
-        //     result[item] += 1;  // If the item is already in the object, increment its count
-        // } else {
-        //     result[item] = 1;  // If the item is not in the object, add it with a count of 1
-        // }
+        const item = arr[i]; // get the fisrt element of array 
         result[item] = (result[item] || 0) + 1;
     }
 
