@@ -20,10 +20,11 @@ var containsDuplicate = function(nums) {
     //iterate through the length of array
     for(let i=0; i<nums.length;i++){
         let item = nums[i];
-        // if item is not in the map add an true flag else return true if there is duplicate in map
+        // if item is not in the map add an true flag
         if(!freq[item]){
             freq[item]=true;
         }else{
+            // return true if there is duplicate in map
             return true;
         }
     } 
