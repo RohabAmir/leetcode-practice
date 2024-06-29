@@ -20,7 +20,7 @@ var isAnagram = function(s, t) {
     for(let letter of s){
         counter[letter] = (counter[letter] || 0) + 1;
     }
-    // 3.Compare the counter map with string2 and suctract till all the values in map goes to zero. 
+    // 3.Compare the counter map with string2 and subtract till all the values in map goes to zero. 
     for(let items of t){
         if(!counter[items]){
             return false; // if any letter in string 2 which is not in str1
