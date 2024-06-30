@@ -24,7 +24,6 @@ var search = function(nums, target) {
             min = midIndex + 1;
         }else if(nums[midIndex] > target){
             max = midIndex - 1;
-
         }
 
     }
