@@ -36,7 +36,7 @@ var reverseVowels=function(s){
 
 };
 
-let string="leetcode"
-const VR= reverseVowels(string);
-console.log(VR);
+// let string="leetcode"
+// const VR= reverseVowels(string);
+// console.log(VR);
 
