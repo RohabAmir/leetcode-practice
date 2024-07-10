@@ -23,9 +23,9 @@
  }
 
  //test case 
- const array1 = [1,4,5,8];
- const array2 = [2,4,5,8];
- const array3 = [4,8,12,16];
+ const array1 = [1,5,10,20,40,80];
+ const array2 = [6,7,20,80,100];
+ const array3 = [3,4,15,20,30,70,80,120];
 
 
 

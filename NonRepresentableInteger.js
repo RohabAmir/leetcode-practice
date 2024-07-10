@@ -18,7 +18,6 @@ function findSmallestNonRepresentableInteger(arr){
         if(arr[i] > res){
             return res;
         }
-
         //update 'res' to include current element in possible sums
         res += arr[i];
     }
