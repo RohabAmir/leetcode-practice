@@ -20,5 +20,5 @@ function findLongestWord(sentence){
     return longestWord; 
 }
 // Example usage:
-let sentence = "The quick brown fox jumped over the lazy dog";
+let sentence = "The quick brown fox jumped over the lazy Dog";
 console.log(findLongestWord(sentence)); 
