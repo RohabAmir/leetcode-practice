@@ -14,6 +14,6 @@ function countOccurrences(arr) {
 }
 
 // Example usage
-const arr = ['a', 'a', 'b', 'c', 'c', 'c', 'd','d'];
+const arr = ['a', 'a', 'b', 'c', 'c', 'c', 'd','d', 'e', 'e'];
 const occurrences = countOccurrences(arr);
 console.log(occurrences);
