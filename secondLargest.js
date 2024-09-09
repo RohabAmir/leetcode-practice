@@ -26,5 +26,5 @@ function findSecondLargest(arr) {
 }
 
 // Example usage
-const numbers = [5, 7, 1, 3, 7, 8, 10];
+const numbers = [5, 7, 1, 3, 7, 8, 10, 20];
 console.log("Second Largest:", findSecondLargest(numbers)); // Output should be 8
